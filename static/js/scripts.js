@@ -27,3 +27,7 @@ window.addEventListener('DOMContentLoaded', () => {
         scrollPos = currentTop;
     });
 })
+
+function updateDate() {
+    document.getElementById("#copyright").innerHTML(new Date().getFullYear());
+}
